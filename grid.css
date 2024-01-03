@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wraper{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-areas: 
+    "h h h h h h h h h"
+    "m m m m m m s s s"
+    "f f f f f f f f f"
+    ;
+}
+.header{
+    height: 20px;
+    display: grid;
+    grid-area: h;
+    background-color: burlywood;
+    place-content: center;
+}
+.main{
+    display: grid;
+    background-color: rebeccapurple;
+    grid-area: m;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: "a a a b b"
+    "c c c c c"
+    "d d d e e";
+}
+.content_1{
+    display: grid;
+    background-color: aqua;
+    grid-area: a;
+}
+.content_2{
+    display: grid;
+    background-color: rgb(68, 139, 139);
+    grid-area: b;
+}
+.content_3{
+    display: grid;
+    background-color: rgb(35, 53, 53);
+    grid-area: c;
+}
+.content_4{
+    display: grid;
+    background-color: rgb(5, 53, 53);
+    grid-area: d;
+}
+.content_5{
+    display: grid;
+    background-color: rgb(4, 50, 50);
+    grid-area: e;
+}
+.sidebar{
+    display: grid;
+    grid-area: s;
+    background-color: purple;
+}
+.sidecontent{
+    background-color: blueviolet;
+    display: grid;
+    
+    
+}
+.sidebox1{
+    display: grid;
+    background-color: aliceblue;
+}
+.footer{
+    display: grid;
+    grid-area: f;
+    background-color: dimgrey;
+    place-content: center;
+}

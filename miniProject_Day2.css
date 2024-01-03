@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2rem;
+    font-family: 'Roboto';
+    text-align: center;
+}
+nav{
+    border: 2px solid black;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    line-height: 5rem;
+    font-weight: bolder;
+}
+h2{
+    font-size: 40px;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    border-top: 1px solid #333;
+}
+li a{
+    display: block;
+}
+li a , li:visited{
+    text-decoration: none;
+}
+li a:hover, a:focus{
+    background-color: #333;
+    color: whitesmoke;
+}
+li:last-child a:hover{
+    border-radius: 0 0 1.8rem 1.8rem;
+}
